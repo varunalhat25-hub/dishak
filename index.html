@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disha Ganesh Kather - Resume</title>
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --secondary: #3b82f6;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-color: #334155;
+            --heading-color: #0f172a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: -3rem auto 3rem auto;
+            padding: 0 1.5rem;
+            position: relative;
+        }
+
+        section {
+            background: var(--card-bg);
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-3px);
+        }
+
+        h2 {
+            color: var(--heading-color);
+            font-size: 1.75rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--secondary);
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card-item {
+            background: var(--bg-color);
+            padding: 1.25rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--secondary);
+        }
+
+        .card-item h3 {
+            color: var(--heading-color);
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            overflow-x: auto;
+            display: block;
+        }
+
+        th, td {
+            padding: 0.75rem 1rem;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        th {
+            background-color: var(--bg-color);
+            color: var(--heading-color);
+            font-weight: 600;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .tag-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .tag {
+            background-color: #eff6ff;
+            color: var(--secondary);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            border: 1px solid #bfdbfe;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 3rem 1rem;
+            }
+            header h1 {
+                font-size: 2rem;
+            }
+            section {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Disha Ganesh Kather</h1>
+        <p>Finance & Human Resources Professional</p>
+    </header>
+
+    <div class="container">
+
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>A motivated and confident BBA IB graduate with an interest in Finance and Human Resources[cite: 1]. I am a quick learner, a good team player, and a responsible person who enjoys taking on new challenges[cite: 1]. I aim to build a successful career by continuously developing my skills, gaining practical experience, and contributing positively to the organization[cite: 1].</p>
+        </section>
+
+        <!-- Objective Section -->
+        <section id="objective">
+            <h2>Objective</h2>
+            <p>To build a successful career in Finance and Human Resources by applying my knowledge, improving my professional skills, and gaining practical experience[cite: 1]. I am a hardworking and responsible team player who enjoys working with others, learning new things, and contributing positively to the organization[cite: 1].</p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Yr. of passing</th>
+                        <th>Institute</th>
+                        <th>CGPA/%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>PDGM</td>
+                        <td>2026-2028</td>
+                        <td>Institute of Management Development & Research, Pune (IMDR ®)</td>
+                        <td>Pursuing[cite: 1]</td>
+                    </tr>
+                    <tr>
+                        <td>Graduation (BBA IB)</td>
+                        <td>2023-2026</td>
+                        <td>MMCC, Pune</td>
+                        <td>7.91 CGPA[cite: 1]</td>
+                    </tr>
+                    <tr>
+                        <td>HSC</td>
+                        <td>2023</td>
+                        <td>Modern Junior College Yamunagar Nigdi</td>
+                        <td>78.91%[cite: 1]</td>
+                    </tr>
+                    <tr>
+                        <td>SSC</td>
+                        <td>2021</td>
+                        <td>Camp Education Society Nigdi</td>
+                        <td>92.80%[cite: 1]</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="card-item">
+                <h3>Intern - Right Advisors Company</h3>
+                <p><strong>Duration:</strong> 4 Months[cite: 1]</p>
+                <ul>
+                    <li>Managed data entry and maintained accurate records of company information[cite: 1].</li>
+                    <li>Worked on Tally for basic accounting and record-keeping activities[cite: 1].</li>
+                    <li>Prepared, checked, and maintained bills and invoices[cite: 1].</li>
+                    <li>Assisted with daily office and documentation work[cite: 1].</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Technical Skills & Competencies</h2>
+            <div class="grid-2">
+                <div>
+                    <h3>Technical Skills</h3>
+                    <div class="tag-container">
+                        <span class="tag">MS Office (Word, Excel, PowerPoint)</span>
+                        <span class="tag">Tally</span>
+                    </div>
+                </div>
+                <div>
+                    <h3>Competencies</h3>
+                    <div class="tag-container">
+                        <span class="tag">Team Work</span>
+                        <span class="tag">Communication</span>
+                        <span class="tag">Leadership</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Languages & Interests Section -->
+        <section id="additional">
+            <h2>Languages & Personal Interests</h2>
+            <div class="grid-2">
+                <div>
+                    <h3>Languages Known</h3>
+                    <div class="tag-container">
+                        <span class="tag">English</span>
+                        <span class="tag">Hindi</span>
+                        <span class="tag">Marathi</span>
+                    </div>
+                </div>
+                <div>
+                    <h3>Personal Interests</h3>
+                    <div class="tag-container">
+                        <span class="tag">Dancing</span>
+                        <span class="tag">Travel</span>
+                        <span class="tag">Mehendi Painting</span>
+                        <span class="tag">Driving</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Links Section -->
+        <section id="links">
+            <h2>Professional Links</h2>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com" target="_blank">Disha Kather</a>[cite: 1]</p>
+            <p><strong>Email:</strong> katherdisha07@gmail.com[cite: 1]</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Disha Ganesh Kather. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
